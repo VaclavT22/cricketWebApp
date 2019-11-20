@@ -1,0 +1,46 @@
+.Header-header {
+  margin: 0;
+  background-color: #38470b;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  font: Verdana;
+  text-shadow: 3px 3px 7px #666666;
+  text-align: left;
+}
+
+.Header-title{
+    padding-left: 30px;
+}
+
+.Header-box{
+    padding-left: 100px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height: 80px;
+}
+
+.Header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: color 0.2s ease-out;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+.Header-link{
+    color: white;
+}
